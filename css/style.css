@@ -1,0 +1,119 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+  color: #B1B9C1;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  background-image: url('../lake.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+  margin-top: 0;
+  border-bottom: 4px solid #7fffd4;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.725em;
+  /* margin: 20%; */
+}
+
+header .container {
+  text-align: center;
+  font-weight: 200;
+  margin-top: 100px;
+  background-color: rgba(0,0,0,.2);
+  border-radius: 3px;
+  color: white;
+}
+
+header p {
+  font-size: 1.5em;
+}
+
+.main-section {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  height: 100%;
+  background: #b0c4de;
+  z-index: 0;
+}
+
+.main-section h3 {
+  padding: 20px 0 ;
+}
+
+.main-section img {
+  box-shadow: -1.5px -1.5px 5px #7fffd4;
+  /*border: 2px solid #7fffd4;*/
+  border-radius: 6px;
+}
+
+.main-section img:hover {
+  cursor: pointer;
+  /*border: 2px solid #7fffd4;*/
+  border-radius: 6px;
+  border: 2px solid orange;
+}
+
+section h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+}
+
+.section {
+  background-color: lightblue;
+  margin: 0 auto;
+  padding: 20px;
+  border-top: 4px solid #7fffd4;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+  z-index: 9999 !important;
+  border-bottom: 4px solid #7fffd4 !important;
+  border-radius: 0px !important;
+  border-left: 0px !important;
+  border-top: 0px !important;
+  border-right: 0px !important;
+}
+
+.sticky {
+  background-color: white;
+  transition: 1s;
+}
+
+.is-sticky .sticky{
+  background-color: rgba(6, 6, 6, 0.8);
+}
+
+.is-sticky a {
+  color: #7fffd4 !important;
+  font-weight: bold !important;
+}
+
+/* Slick styles */
+.slick-dots {
+  bottom: -30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.slick-dots li button:before {
+  font-size: 32px;
+}
